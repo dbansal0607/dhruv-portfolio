@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: radial-gradient(
+      1200px 600px at 10% -10%,
+      rgba(108, 124, 255, 0.08),
+      transparent
+    ),
+    #0b0d10;
+  color: #ffffff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 6rem 1.5rem;
+}
+
+section + section {
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+p {
+  line-height: 1.7;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+body {
+  perspective: 1200px;
+}
