@@ -1,73 +1,52 @@
-# React + TypeScript + Vite
+# 🚀 Dhruv Bansal — Interactive 3D Portfolio
+A modern, interactive developer portfolio showcasing my work in software engineering, backend systems, machine learning, and full-stack development, built with smooth animations, floating UI elements, and a strong visual identity.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔗 Live Website: (add Vercel link after deployment)
 
-Currently, two official plugins are available:
+📂 Source Code: This repository
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# ✨ Highlights
+* Modern dark UI with ambient gradients
+* Clean sectioned layout (Hero, About, Projects, Technologies, Contact)
+* Floating & interactive technology icons
+* Smooth animations using Framer Motion
+* Fully responsive (desktop, tablet, mobile)
+* Built with Vite for fast performance
+* Focused on clarity, scalability, and real-world engineering
 
-## React Compiler
+# 🧰 Tech Stack
+## Frontend
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+* Framer Motion
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tooling & Platform
+* Git & GitHub
+* Vercel (deployment)
+* ESLint
+* PostCSS
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+# 👨‍💻 Author
+Dhruv Bansal
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Software Engineering Student
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Backend • Full-Stack • Machine Learning • Systems Thinking
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+📧 Email: dhruvbansal23731@gmail.com
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+🐙 GitHub: https://github.com/dbansal0607
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+# ⭐ Final Note
+
+This portfolio is intentionally designed to reflect:
+
+* engineering maturity
+* attention to detail
+* production-ready mindset
+
+If you like the project, feel free to ⭐ the repository.
