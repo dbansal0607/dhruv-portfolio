@@ -1,7 +1,7 @@
 # 🚀 Dhruv Bansal — Interactive 3D Portfolio
 A modern, interactive developer portfolio showcasing my work in software engineering, backend systems, machine learning, and full-stack development, built with smooth animations, floating UI elements, and a strong visual identity.
 
-🔗 Live Website: (add Vercel link after deployment)
+🔗 Live Website: (https://dhruv-portfolio-eight.vercel.app/)
 
 📂 Source Code: This repository
 
